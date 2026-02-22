@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shadrack Ngunguu — Full Stack Engineer</title>
+    <meta name="description" content="Portfolio — Shadrack Ngunguu, Full Stack Engineer & IT Specialist." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <div style="display:flex;align-items:center;gap:14px">
+          <a class="brand" href="#">Shadrack N.</a>
+          <div class="tagline">Full Stack Engineer · IT Specialist</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <div class="header-contacts">
+            <a class="contact-link" href="mailto:shadrackithua74@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a class="contact-link" href="https://wa.me/254705961358" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
+          </div>
+          <button class="nav-toggle" id="navToggle" aria-label="Open menu">☰</button>
+          <ul class="nav-list" id="navList">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-left">
+          <h1 class="gradient-text">Shadrack Ngunguu</h1>
+          <p class="role"><span id="typing" class="typing">Full-Stack Engineer</span><span id="typing-cursor" class="typing-cursor" aria-hidden="true">|</span></p>
+          <p class="lead">Building secure, scalable, and modern web applications that deliver measurable outcomes for businesses.</p>
+          <p class="meta">Available for contracts · Nairobi / Remote</p>
+
+          <p class="cta-row">
+            <a class="btn primary" href="#experience">View Work</a>
+            <a class="btn outline" href="/download/resume">Download CV</a>
+            <a class="btn" href="#contact">Contact Me</a>
+          </p>
+
+          <div class="contact-info">
+            <a class="info-item" href="mailto:shadrackithua74@gmail.com"><i class="fa-solid fa-envelope"></i><span>shadrackithua74@gmail.com</span></a>
+            <a class="info-item" href="https://wa.me/254705961358" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><span>+254 70 596 1358 (WhatsApp)</span></a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="avatar-wrap" aria-hidden="true">
+            <div class="avatar">
+              <img src="Gemini_Generated_Image_7wixlv7wixlv7wix.png" alt="Shadrack Ngunguu" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about container" id="about">
+        <h2>About</h2>
+        <p class="about-short">I'm Shadrack — a pragmatic Full-Stack Engineer who crafts secure, scalable web applications and polished user experiences. I combine strong backend fundamentals with product-focused frontend design to deliver measurable outcomes for businesses and teams.</p>
+        <p class="about-long"><span id="about-typing" class="about-typing" aria-live="polite"></span><i id="about-pen" class="fa-solid fa-pen-nib typing-pen" aria-hidden="true"></i></p>
+
+        <ul class="skills enhanced-skills">
+          <li><i class="fa-brands fa-react skill-icon"></i> React</li>
+          <li><i class="fa-brands fa-node-js skill-icon"></i> Node.js</li>
+          <li><i class="fa-solid fa-database skill-icon"></i> Databases (Mongo/Postgres)</li>
+          <li><i class="fa-solid fa-server skill-icon"></i> DevOps & CI/CD</li>
+        </ul>
+      </section>
+
+      <section class="tech container" id="tech">
+        <h2>Tech Stack</h2>
+        <div class="tech-grid">
+          <div class="tech-group">
+            <h4>Frontend</h4>
+            <div class="tech-cards">
+              <div class="tech-card"><i class="fa-brands fa-html5"></i>HTML</div>
+              <div class="tech-card"><i class="fa-brands fa-css3-alt"></i>CSS / Tailwind</div>
+              <div class="tech-card"><i class="fa-brands fa-js-square"></i>JavaScript / TypeScript</div>
+              <div class="tech-card"><i class="fa-brands fa-react"></i>React</div>
+            </div>
+          </div>
+          <div class="tech-group">
+            <h4>Backend</h4>
+            <div class="tech-cards">
+              <div class="tech-card"><i class="fa-brands fa-node-js"></i>Node.js</div>
+              <div class="tech-card"><i class="fa-solid fa-server"></i>Express</div>
+              <div class="tech-card"><i class="fa-solid fa-network-wired"></i>REST APIs</div>
+            </div>
+          </div>
+          <div class="tech-group">
+            <h4>Database</h4>
+            <div class="tech-cards">
+              <div class="tech-card"><i class="fa-solid fa-database"></i>MongoDB</div>
+              <div class="tech-card"><i class="fa-solid fa-database"></i>SQL</div>
+            </div>
+          </div>
+          <div class="tech-group">
+            <h4>Tools</h4>
+            <div class="tech-cards">
+              <div class="tech-card"><i class="fa-brands fa-github"></i>Git & GitHub</div>
+              <div class="tech-card"><i class="fa-brands fa-docker"></i>Docker</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured projects removed per request. Work samples are summarized under Experience & Projects. -->
+
+      <section class="experience container" id="experience">
+        <h2>Experience & Projects</h2>
+        <p class="muted">Freelance projects, personal products, and open-source contributions focused on building pragmatic, testable systems.</p>
+        <ul class="experience-list">
+          <li><strong>Freelance:</strong> Several client projects (e-commerce, portals, analytics).</li>
+          <li><strong>Open-source:</strong> Utilities and integrations—see GitHub for pinned repos.</li>
+          <li><strong>Personal:</strong> Side projects showcasing full-stack architecture and CI/CD.</li>
+        </ul>
+      </section>
+
+      <section class="github container" id="github">
+        <h2>GitHub</h2>
+        <p class="muted">View my profile for recent activity and pinned repositories.</p>
+        <p><a class="btn outline" href="https://github.com/Kitthua" target="_blank" rel="noopener">View GitHub Profile</a></p>
+      </section>
+
+      <section class="contact container" id="contact">
+        <h2>Contact</h2>
+        <p>Interested in working together? Send a message or use the contact methods below — I typically reply within 48 hours.</p>
+
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form">
+            <input id="cf-name" name="name" placeholder="Your name" required />
+            <input id="cf-email" name="email" type="email" placeholder="you@example.com" required />
+            <textarea id="cf-message" name="message" rows="5" placeholder="Brief message"></textarea>
+            <div class="form-row">
+              <button id="cf-submit" class="btn primary" type="submit">Send</button>
+              <a class="btn outline" href="mailto:shadrackithua74@gmail.com">Or email</a>
+            </div>
+            <div id="cf-status" style="margin-top:10px;color:var(--muted)"></div>
+          </form>
+
+          <aside class="contact-side">
+            <h3>Direct</h3>
+            <p><strong>WhatsApp:</strong> <a class="info-item" href="https://wa.me/254705961358" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><span>+254 70 596 1358</span></a></p>
+            <p><strong>Email:</strong> <a class="info-item" href="mailto:shadrackithua74@gmail.com"><i class="fa-solid fa-envelope"></i><span>shadrackithua74@gmail.com</span></a></p>
+            <p><strong>Availability:</strong> Open to contract & remote engagements</p>
+            <p><strong>Profiles:</strong> <a class="info-item" href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a> · <a class="info-item" href="https://github.com/Kitthua" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i><span>GitHub</span></a></p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span id="year"></span> Built by @shadracks</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
