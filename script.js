@@ -155,8 +155,8 @@ function init(){
 
     let i = 0;
     let deleting = false;
-    const typeSpeed = 18; // ms per char
-    const deleteSpeed = 10;
+    const typeSpeed = 45; // ms per char
+    const deleteSpeed = 20;
     const pauseAfter = 2400; // pause after full text typed
     const pauseBefore = 700; // pause before typing restarts
 
